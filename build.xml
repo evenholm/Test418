@@ -48,11 +48,11 @@
 
 	       <javac destdir="${run.classpath}" srcdir="${run.srcpath}"
 
-	           classpathref="compile.path" includeAntRuntime="false"/>
+	           classpathref="compile.path" />
 
 	       <javac destdir="${run.classpath}" srcdir="${test.srcpath}"
 
-	           classpathref="compile.path" includeAntRuntime="false"/>
+	           classpathref="compile.path" />
 
 	    </target>
 
