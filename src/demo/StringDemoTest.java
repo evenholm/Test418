@@ -18,52 +18,52 @@ public class StringDemoTest extends TestCase{
 
 	@Test
 	public void testSmallString1() {
-		assertEquals("一个字母变小写",str.smallString("A"),"a");
+		assertEquals(str.smallString("A"),"a");
 	}
 	
 	@Test
 	public void testSmallString2() {
-		assertEquals("一个字母变小写",str.smallString("AAAA"),"aaaa");
+		assertEquals(str.smallString("AAAA"),"aaaa");
 	}
 	
 	@Test
 	public void testSmallString3() {
-		assertEquals("一个字母变小写",str.smallString(""),"error");
+		assertEquals(str.smallString(""),"error");
 	}
 	
 	@Test
 	public void testSmallString4() {
-		assertEquals("一个字母变小写",str.smallString("adDAW"),"addaw");
+		assertEquals(str.smallString("adDAW"),"addaw");
 	}
 	
 	@Test
 	public void testSmallString5() {
-		assertEquals("一个字母变小写",str.smallString("1235A"),"1235a");
+		assertEquals(str.smallString("1235A"),"1235a");
 	}
 	
 	@Test
 	public void testSmallString6() {
-		assertEquals("一个字母变小写",str.smallString("123"),"123");
+		assertEquals(str.smallString("123"),"123");
 	}
 	
 	@Test
 	public void testSmallString7() {
-		assertEquals("一个字母变小写",str.smallString("*%^%$DD"),"*%^%$dd");
+		assertEquals(str.smallString("*%^%$DD"),"*%^%$dd");
 	}
 	
 	@Test
 	public void testSmallString8() {
-		assertEquals("一个字母变小写",str.smallString("*%^%$"),"*%^%$");
+		assertEquals(str.smallString("*%^%$"),"*%^%$");
 	}
 	
 	@Test
 	public void testSmallString9() {
-		assertEquals("一个字母变小写",str.smallString("A...a"),"a...a");
+		assertEquals(str.smallString("A...a"),"a...a");
 	}
 	
 	@Test
 	public void testSmallString10() {
-		assertEquals("一个字母变小写",str.smallString(""),"error");
+		assertEquals(str.smallString(""),"error");
 	}
 
 }
